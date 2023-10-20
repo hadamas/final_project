@@ -1,0 +1,58 @@
+{
+	"name": "Gabriel Quintiliano",
+	"birthdate": "22/07/1998",
+	"address": {
+		"city": "Araras",
+		"state": "SP"
+	},
+	"contacts": {
+		"emails": [
+			"gabrielq.pereira@gmail.com"
+		],
+		"phones": [
+			"19 xxxx-xxxx"
+		]
+	},
+	"socialMedia": [
+		{
+			"platform": "linkedin",
+			"username": "gabriel-quintiliano",
+			"profileSrc": "https://www.linkedin.com/in/gabriel-quintiliano/"
+		},
+		{
+			"platform": "github",
+			"username": "gabriel-quintiliano",
+			"profileSrc": "https://github.com/gabriel-quintiliano"
+		},
+		{
+			"platform": "github",
+			"username": "gabriel-quintiliano",
+			"profileSrc": "https://github.com/gabriel-quintiliano"
+		}
+	],
+	"profilePictureSrc": "https://media.licdn.com/dms/image/D4D03AQGcs8I9pLpLkQ/profile-displayphoto-shrink_800_800/0/1694959701545?e=1703116800&v=beta&t=mIRagMKruMgPvPdzY3D3HLpsbqCFkl2_kxSKgyw7DIM",
+	"professionalSummary": "[VOU COLOCAR DPS]",
+	"professionalGoal": "[VOU COLOCAR DPS]",
+	"languages": [
+		{
+			"language": "Português",
+			"level": "Nativo"
+		},
+		{
+			"language": "Inglês",
+			"level": "Advanced"
+		}
+	],
+	"education": [
+		"[VOU COLOCAR DPS]"
+	],
+	"courses": [
+		"[VOU COLOCAR DPS]"
+	],
+	"skills": [
+		"[VOU COLOCAR DPS]"
+	],
+	"acchiviements": [
+		"[VOU COLOCAR DPS]"
+	]
+}
