@@ -1,3 +1,4 @@
-<button type="button" (click)="fetchUserData(dataUrl)" style="border: 3px solid black;">
-	tab for {{profileUser}}
+<button type="button" (click)="emitComponentEvent(updateProfileInfoRequest, profileUsername)"
+	style="border: 3px solid black;">
+	tab for {{profileUsername}}
 </button>

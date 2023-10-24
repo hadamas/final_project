@@ -1,12 +1,8 @@
 <div>
-	<app-profile-tab profileUser="Gabriel" dataUrl="../../../gabriel.json"
-		(updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
-
-	<app-profile-tab profileUser="Alanis" dataUrl="../../../assets/people-info/alanis.json"
-		(updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
-
-	<app-profile-tab profileUser="Denilson" dataUrl="../../../assets/people-info/denilson.json"
-		(updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+	<app-profile-tab profileUsername="Gabriel" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+	<app-profile-tab profileUsername="Alanis" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+	<app-profile-tab profileUsername="Denilson" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+	<app-profile-tab profileUsername="Italo" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
 </div>
 <div>
 	<p>Content of {{ curProfileUser }}:</p>

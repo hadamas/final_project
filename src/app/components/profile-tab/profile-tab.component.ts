@@ -7,17 +7,9 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 export class ProfileTabComponent {
 
 	@Output() updateProfileInfoRequest = new EventEmitter();
-	@Input() dataUrl: string = '';
-	@Input() profileUser: string = '';
+	@Input() profileUsername: string = '';
 
-	fetchUserData(dataUrl: string) {
-		const context = require.context('../myModules', false, /\.json$/);
-		// console.log(data)
-		// let data = "./gabriel.json";
-		// import("../../../assets/people-info/alanis.json").then(({ default: x }) => console.log(x))
-		// let userDataPromise = import(dataUrl);
-		// console.log(userDataPromise)
-		// this.updateProfileInfoRequest.emit(userDataPromise);
-		import(dataUrl).then(x => console.log(x))
+	emitComponentEvent(outputEventEmitter: EventEmitter<any>, ...argumentstoBeSent: any[]) {
+		outputEventEmitter.emit(...argumentstoBeSent);
 	}
 }
