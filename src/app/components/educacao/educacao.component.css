@@ -1,0 +1,17 @@
+body{
+  background-color: #F6F1E2;
+}
+.education{
+  background-color: #7BA68D;
+}
+.title{
+  background-color: #241A22;
+  color: #fff;
+  width: 9.5rem;
+  padding: 0.4rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+.education-info{
+  margin-left: 2rem; 
+}
