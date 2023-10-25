@@ -1,1 +1,11 @@
-<p>curriculum-header works!</p>
+<div>
+	<ng-template [ngIf]="infos">
+		<img [src]="profilePictureSrc" [alt]="'foto de ' + name">
+		<p>{{ name }}</p>
+		<p>{{ age + ' anos' }}</p>
+		<li *ngFor="let phone of phones;">{{ phone }}</li> <!-- implementar uma mascara aqui -->
+		<li *ngFor="let email of emails;">{{ email }}</li> <!-- implementar uma mascara aqui -->
+		<li *ngFor="let platformInfo of socialMedia;">{{ platformInfo.platform }}</li>
+		<!-- implementar uma mascara aqui -->
+	</ng-template>
+</div>
