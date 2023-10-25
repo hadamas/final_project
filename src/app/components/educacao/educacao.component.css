@@ -1,17 +1,18 @@
+*{
+  margin: none;
+  padding: none;
+}
 body{
   background-color: #F6F1E2;
 }
-.education{
+.container-img{
   background-color: #7BA68D;
+  height: 3.2rem;
 }
-.title{
-  background-color: #241A22;
-  color: #fff;
-  width: 9.5rem;
-  padding: 0.4rem;
+.img{
   margin-left: 2rem;
-  font-size: 2rem;
+  margin-top: -0.3rem;
 }
-.education-info{
+.info{
   margin-left: 2rem; 
 }
