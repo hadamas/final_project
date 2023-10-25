@@ -1,9 +1,7 @@
-import { default as peopleInfo } from '../assets/people-info.json';
+import { default as peopleInfoFromJson } from '../assets/people-info.json';
 import { Component, OnInit } from '@angular/core';
+import { CurriculumHeaderInfo, PersonInfo, BracketAcessible } from 'src/utility/types';
 
-interface PeopleInfo {
-	[key: string]: any;
-}
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
@@ -14,29 +12,20 @@ export class AppComponent {
 	title = 'final_project';
 	content: any = 'loading...'
 	curProfileUser: string = 'default'
-
-	// ngOnInit() {
-	// 	 require.context('../myModules', false, /\.json$/);
-	// }
-
-	// async loadNewContent(newContentPromise: Promise<any>) {
-	// 	console.log('valor inicial de newContent = ', newContentPromise)
-	// 	this.content = await newContentPromise;
-	// 	console.log('valor dps do await newContent = ', newContentPromise)
-	// 	console.log('valor dps do await this.content = ', this.content)
-	// }
+	curriculumHeaderInfo!: CurriculumHeaderInfo;
+	peopleInfo = peopleInfoFromJson;
 
 	loadNewContent(username: string) {
 		username = username.toLowerCase();
+		console.log(`username = `, username)
+		const personInfo: any = ((this.peopleInfo as BracketAcessible)[username])
 
-		try {
-			console.log(username)
-			console.log(peopleInfo)
-			console.log((peopleInfo as PeopleInfo)[username])
-			this.content = `${(peopleInfo as PeopleInfo)[username].name}
-			${(peopleInfo as PeopleInfo)[username].birthdate}`;
-		} catch (error) {
-			console.log(error)
+		this.curriculumHeaderInfo = {
+			name: personInfo.name,
+			profilePictureSrc: personInfo.profilePictureSrc,
+			birthdate: personInfo.birthdate,
+			socialMedia: personInfo.socialMedia,
+			contacts: personInfo.contacts
 		}
 	}
 }

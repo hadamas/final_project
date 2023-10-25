@@ -5,6 +5,5 @@
 	<app-profile-tab profileUsername="Italo" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
 </div>
 <div>
-	<p>Content of {{ curProfileUser }}:</p>
-	<p>{{ content }}</p>
+	<app-curriculum-header [infos]="curriculumHeaderInfo"></app-curriculum-header>
 </div>
