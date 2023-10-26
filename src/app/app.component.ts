@@ -11,6 +11,7 @@ export class AppComponent {
 
 	title = 'final_project';
 	curriculumHeaderInfo!: CurriculumHeaderInfo;
+	professionalSummary!: any;
 
 	loadNewContent(username: string) {
 		username = username.toLowerCase();
@@ -24,5 +25,7 @@ export class AppComponent {
 			socialMedia: personInfo.socialMedia,
 			contacts: personInfo.contacts
 		}
+
+		this.professionalSummary = personInfo.professionalSummary;
 	}
 }
