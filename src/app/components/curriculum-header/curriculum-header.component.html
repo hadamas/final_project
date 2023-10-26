@@ -1,11 +1,17 @@
-<div>
-	<ng-template [ngIf]="infos">
-		<img [src]="profilePictureSrc" [alt]="'foto de ' + name">
-		<p>{{ name }}</p>
-		<p>{{ age + ' anos' }}</p>
-		<li *ngFor="let phone of phones;">{{ phone }}</li> <!-- implementar uma mascara aqui -->
-		<li *ngFor="let email of emails;">{{ email }}</li> <!-- implementar uma mascara aqui -->
-		<li *ngFor="let platformInfo of socialMedia;">{{ platformInfo.platform }}</li>
-		<!-- implementar uma mascara aqui -->
-	</ng-template>
+<div class="container">
+	<div class="row">
+		<ng-template [ngIf]="infos">
+			<div class="sqr__container col-2" style="border: 5px solid black;">
+				<img class="obf-contain" [src]="profilePictureSrc" [alt]="'foto de ' + name">
+			</div>
+			<div class="col">
+				<p>{{ name }}</p>
+				<p>{{ age + ' anos' }}</p>
+				<li *ngFor="let phone of phones;">{{ phone }}</li> <!-- implementar uma mascara aqui -->
+				<li *ngFor="let email of emails;">{{ email }}</li> <!-- implementar uma mascara aqui -->
+				<li *ngFor="let platformInfo of socialMedia;">{{ platformInfo.platform }}</li>
+				<!-- implementar uma mascara aqui -->
+			</div>
+		</ng-template>
+	</div>
 </div>

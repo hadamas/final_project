@@ -1,0 +1,14 @@
+.obf-contain {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.sqr__container {
+	width: 200px;
+	height: 200px;
+	background-size: none;
+	align-self: center;
+	resize: both;
+	overflow: hidden;
+}
