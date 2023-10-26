@@ -1,0 +1,210 @@
+{
+	"alanis": {
+		"name": "Alanis info aqui",
+		"birthdate": "dd/mm/yyyy",
+		"address": {
+			"city": "",
+			"state": ""
+		},
+		"contacts": {
+			"emails": [],
+			"phones": []
+		},
+		"socialMedia": [
+			{
+				"platform": "",
+				"username": "",
+				"profileSrc": ""
+			}
+		],
+		"profilePictureSrc": "",
+		"professionalSummary": "",
+		"professionalGoal": "",
+		"languages": [
+			""
+		],
+		"education": [
+			""
+		],
+		"courses": [
+			""
+		],
+		"skills": [
+			""
+		],
+		"acchiviements": [
+			""
+		]
+	},
+	"gabriel": {
+		"name": "Gabriel Quintiliano",
+		"birthdate": "22/07/1998",
+		"address": {
+			"city": "Araras",
+			"state": "SP"
+		},
+		"contacts": {
+			"emails": [
+				"gabrielq.pereira@gmail.com"
+			],
+			"phones": [
+				"19 xxxx-xxxx"
+			]
+		},
+		"socialMedia": [
+			{
+				"platform": "linkedin",
+				"username": "gabriel-quintiliano",
+				"profileSrc": "https://www.linkedin.com/in/gabriel-quintiliano/"
+			},
+			{
+				"platform": "github",
+				"username": "gabriel-quintiliano",
+				"profileSrc": "https://github.com/gabriel-quintiliano"
+			},
+			{
+				"platform": "github",
+				"username": "gabriel-quintiliano",
+				"profileSrc": "https://github.com/gabriel-quintiliano"
+			}
+		],
+		"profilePictureSrc": "https://media.licdn.com/dms/image/D4D03AQGcs8I9pLpLkQ/profile-displayphoto-shrink_800_800/0/1694959701545?e=1703116800&v=beta&t=mIRagMKruMgPvPdzY3D3HLpsbqCFkl2_kxSKgyw7DIM",
+		"professionalSummary": "[VOU COLOCAR DPS]",
+		"professionalGoal": "[VOU COLOCAR DPS]",
+		"languages": [
+			{
+				"language": "Português",
+				"level": "Nativo"
+			},
+			{
+				"language": "Inglês",
+				"level": "Advanced"
+			}
+		],
+		"education": [
+			"[VOU COLOCAR DPS]"
+		],
+		"courses": [
+			"[VOU COLOCAR DPS]"
+		],
+		"skills": [
+			"[VOU COLOCAR DPS]"
+		],
+		"acchiviements": [
+			"[VOU COLOCAR DPS]"
+		]
+	},
+	"denilson": {
+		"name": "Denilson Gomes de Oliveira Jr",
+		"birthdate": "17/12/1993",
+		"address": {
+			"city": "Varginha",
+			"state": "Minas Gerais"
+		},
+		"contacts": {
+			"emails": [
+				"jrdenilson1@outlook.com"
+			],
+			"phones": [
+				"35999036285"
+			]
+		},
+		"socialMedia": [
+			{
+				"platform": "linkedin",
+				"username": "jrdenilson",
+				"profileSrc": "https://www.linkedin.com/in/jrdenilson/"
+			},
+			{
+				"platform": "github",
+				"username": "jrdenilson",
+				"profileSrc": "https://github.com/jrdenilson"
+			}
+		],
+		"profilePictureSrc": "https://avatars.githubusercontent.com/u/107408702?v=4",
+		"professionalSummary": "Estudante de Engenharia de Controle e Automação, já tive contato com linguagem C++ na graduação, mas durante a pandemia resolvi estudar mais para entrar na área de TI, tenho como objetivo trabalhar na área de desenvolvimento de software, fiz alguns cursos com foco tanto em Front-end quanto Back-end, tenho habilidade em JavaScript, React, Node, Bootstrap e também conhecimento em testes de software (manuais e automatizados com Cypress).",
+		"professionalGoal": "",
+		"languages": [
+			{
+				"language": "Português",
+				"level": "Nativo"
+			},
+			{
+				"language": "Inglês",
+				"level": "Advanced"
+			}
+		],
+		"education": [
+			{
+				"school": "Unifei",
+				"course": "Engenharia de Controle e Automação",
+				"date": "03/13 - 12/2016"
+			},
+			{
+				"school": "Estácio",
+				"course": "Analise e Desenvolvimento de Sistemas",
+				"date": "03/23 - 07/2025"
+			}
+		],
+		"courses": [
+			{
+				"title": "QA",
+				"date": "08/22 - 11/22"
+			},
+			{
+				"title": "Web Development Bootcamp",
+				"date": "12/22 - 02/23"
+			},
+			{
+				"title": "Desenvolvimento Javascript",
+				"date": "07/22 - 08/22"
+			}
+		],
+		"skills": [
+			"JavaScript",
+			"NextJS",
+			"Node",
+			"React"
+		],
+		"acchiviements": [
+			""
+		]
+	},
+	"italo": {
+		"name": "Italo info aqui",
+		"birthdate": "dd/mm/yyyy",
+		"address": {
+			"city": "",
+			"state": ""
+		},
+		"contacts": {
+			"emails": [],
+			"phones": []
+		},
+		"socialMedia": [
+			{
+				"platform": "",
+				"username": "",
+				"profileSrc": ""
+			}
+		],
+		"profilePictureSrc": "",
+		"professionalSummary": "",
+		"professionalGoal": "",
+		"languages": [
+			""
+		],
+		"education": [
+			""
+		],
+		"courses": [
+			""
+		],
+		"skills": [
+			""
+		],
+		"acchiviements": [
+			""
+		]
+	}
+}
