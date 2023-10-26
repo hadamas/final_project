@@ -1,26 +1,37 @@
 {
-	"name": "",
-	"age": 0,
+	"name": "Ítalo Marcelo Sérvulo Bezerra",
+	"age": 19,
 	"address": {
-		"city": "",
-		"state": ""
+		"city": "Teresina",
+		"state": "PI"
 	},
 	"contacts": {
-		"emails": [],
-		"phones": []
+		"emails": ["youngitne@gmail.com"],
+		"phones": ["86 98157-9197"]
 	},
 	"socialMedia": [
 		{
-			"platform": "",
-			"username": "",
-			"profileSrc": ""
+			"platform": "GitHub",
+			"username": "4realcorvo",
+			"profileSrc": "https://github.com/4realcorvo"
 		}
 	],
-	"profilePictureSrc": "",
-	"professionalSummary": "",
+	"profilePictureSrc": "https://avatars.githubusercontent.com/u/110391902?v=4",
+	"professionalSummary": "Estudande na área de T.I há cerca de 1 ano, com foco no desenvolvimento web.",
 	"professionalGoal": "",
 	"languages": [
-		""
+		{
+			"language": "Português",
+			"level": "Nativo"
+		},
+		{
+			"language": "Inglês",
+			"level": "Básico"
+		},
+		{
+			"language": "Espanhol",
+			"level": "Básico"
+		}
 	],
 	"education": [
 		""
@@ -29,9 +40,14 @@
 		""
 	],
 	"skills": [
-		""
+		"JS",
+		"Typescript",
+		"React",
+		"React-Native",
+		"Node.js",
+		"Bootstrap"
 	],
 	"acchiviements": [
-		""
+		"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis repellendus illo est itaque. Officiis maxime illum odio laboriosam quibusdam! Ratione, ipsum consectetur. Dicta pariatur non dolorum illum et consequatur excepturi?"
 	]
 }
