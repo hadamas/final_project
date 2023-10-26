@@ -13,6 +13,6 @@ export class EducacaoComponent {
     universidade3: 'Universidade de Cambridge'
   }
   ano = {
-    universidade1: '2019-2023'
+    ano1: '2019-2023'
   }
 }
