@@ -1,7 +1,8 @@
 export type CurriculumHeaderInfo = {
-	name: string;
-	profilePictureSrc: string;
-	birthdate: string;
+	name: string,
+	profilePictureSrc: string
+	birthdate: string,
+	address: Addressinfo,
 	socialMedia: Array<SocialMediaInfo>,
 	contacts: ContactInfo
 }
@@ -22,6 +23,11 @@ export type LanguageInfo = {
 	level: string
 }
 
+export type Addressinfo = {
+	city: string,
+	state: string
+}
+
 export interface BracketAcessible {
 	[key: string]: any;
 }
@@ -29,10 +35,7 @@ export interface BracketAcessible {
 export interface PersonInfo extends BracketAcessible {
 	name: string,
 	birthdate: string,
-	address: {
-		city: string,
-		state: string
-	},
+	address: Addressinfo,
 	contacts: ContactInfo,
 	socialMedia: SocialMediaInfo,
 	profilePictureSrc: string,
