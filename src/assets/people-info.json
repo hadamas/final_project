@@ -37,7 +37,7 @@
 		]
 	},
 	"gabriel": {
-		"name": "Gabriel Quintiliano",
+		"name": "Gabriel Quintiliano Rosa Pereira",
 		"birthdate": "22/07/1998",
 		"address": {
 			"city": "Araras",
@@ -48,7 +48,7 @@
 				"gabrielq.pereira@gmail.com"
 			],
 			"phones": [
-				"19 xxxx-xxxx"
+				"+55 19 99519-9339"
 			]
 		},
 		"socialMedia": [
@@ -61,15 +61,10 @@
 				"platform": "github",
 				"username": "gabriel-quintiliano",
 				"profileSrc": "https://github.com/gabriel-quintiliano"
-			},
-			{
-				"platform": "github",
-				"username": "gabriel-quintiliano",
-				"profileSrc": "https://github.com/gabriel-quintiliano"
 			}
 		],
 		"profilePictureSrc": "https://media.licdn.com/dms/image/D4D03AQGcs8I9pLpLkQ/profile-displayphoto-shrink_800_800/0/1694959701545?e=1703116800&v=beta&t=mIRagMKruMgPvPdzY3D3HLpsbqCFkl2_kxSKgyw7DIM",
-		"professionalSummary": "[VOU COLOCAR DPS]",
+		"professionalSummary": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
 		"professionalGoal": "[VOU COLOCAR DPS]",
 		"languages": [
 			{
@@ -106,7 +101,7 @@
 				"jrdenilson1@outlook.com"
 			],
 			"phones": [
-				"35999036285"
+				"+55 35 99903-6285"
 			]
 		},
 		"socialMedia": [
