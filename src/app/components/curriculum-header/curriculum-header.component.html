@@ -1,15 +1,25 @@
-<div class="container">
+<div class="container main-wrapper" style="border: 2px dashed black;">
 	<div class="row">
 		<ng-template [ngIf]="infos">
-			<div class="sqr__container col-2" style="border: 5px solid black;">
-				<img class="obf-contain" [src]="profilePictureSrc" [alt]="'foto de ' + name">
+			<div style="width:250px">
+				<div class="circle mx-auto" style="border: 2px solid rgb(194, 194, 194);">
+					<img class="obf-contain" [src]="profilePictureSrc" [alt]="'foto de ' + name">
+				</div>
+				<div class="text-center">
+					<ng-template ngFor let-platformInfo [ngForOf]="socialMedia">
+						<a class="social-media-link-icon" [href]="platformInfo.profileSrc" target="_blank">
+							<i [class]="'bi bi-' + platformInfo.platform"></i>
+						</a>
+					</ng-template>
+				</div>
 			</div>
 			<div class="col">
-				<p>{{ name }}</p>
-				<p>{{ age + ' anos' }}</p>
+				<p>
+					<span class="profile__name">{{name}}</span> <br />
+					<span>{{age}} anos - {{address.city}}/{{address.state}}</span>
+				</p>
 				<li *ngFor="let phone of phones;">{{ phone }}</li> <!-- implementar uma mascara aqui -->
 				<li *ngFor="let email of emails;">{{ email }}</li> <!-- implementar uma mascara aqui -->
-				<li *ngFor="let platformInfo of socialMedia;">{{ platformInfo.platform }}</li>
 				<!-- implementar uma mascara aqui -->
 			</div>
 		</ng-template>

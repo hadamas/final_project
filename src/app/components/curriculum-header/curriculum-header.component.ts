@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { CurriculumHeaderInfo, SocialMediaInfo } from 'src/utility/types';
+import { Addressinfo, CurriculumHeaderInfo, SocialMediaInfo } from 'src/utility/types';
 
 @Component({
 	selector: 'app-curriculum-header',
@@ -9,6 +9,7 @@ import { CurriculumHeaderInfo, SocialMediaInfo } from 'src/utility/types';
 export class CurriculumHeaderComponent {
 	@Input() infos!: CurriculumHeaderInfo;
 	name!: string;
+	address!: Addressinfo;
 	profilePictureSrc!: string;
 	age!: number;
 	phones!: string[];
@@ -18,20 +19,14 @@ export class CurriculumHeaderComponent {
 	ngOnChanges() {
 		console.log("on changes chamado \n\n")
 		try {
-			console.log(this.infos)
 			this.name = this.infos.name;
+			this.address = this.infos.address
 			this.profilePictureSrc = this.infos.profilePictureSrc;
 			this.age = this.calculateAgeInYears(this.infos.birthdate)
 			this.phones = this.infos.contacts.phones;
 			this.emails = this.infos.contacts.emails;
 			this.socialMedia = this.infos.socialMedia;
 
-			console.log("name ==> ", this.name)
-			console.log("profilePictureSrc ==> ", this.profilePictureSrc)
-			console.log("age ==> ", this.age)
-			console.log("phones ==> ", this.phones)
-			console.log("emails ==> ", this.emails)
-			console.log("socialMedia ==> ", this.socialMedia)
 		} catch (error) {
 			console.log(`DEU ESSE ERRO NO ngOnChanges:\n`)
 			console.log(error)
