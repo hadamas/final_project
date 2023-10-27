@@ -10,7 +10,14 @@ import { CurriculumHeaderInfo, BracketAcessible } from 'src/utility/types';
 export class AppComponent {
 
 	title = 'final_project';
-	curriculumHeaderInfo!: CurriculumHeaderInfo;
+	curriculumHeaderInfo: CurriculumHeaderInfo = {
+		name: peopleInfo.denilson.name,
+		profilePictureSrc: peopleInfo.denilson.profilePictureSrc,
+		address: peopleInfo.denilson.address,
+		birthdate: peopleInfo.denilson.birthdate,
+		socialMedia: peopleInfo.denilson.socialMedia,
+		contacts: peopleInfo.denilson.contacts
+	};
 	professionalSummary!: any;
 
 	loadNewContent(username: string) {

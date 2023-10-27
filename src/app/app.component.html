@@ -1,11 +1,15 @@
-<div>
-	<app-profile-tab profileUsername="Gabriel" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
-	<app-profile-tab profileUsername="Alanis" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
-	<app-profile-tab profileUsername="Denilson" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
-	<app-profile-tab profileUsername="Italo" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
-</div>
-<div>
-	<app-curriculum-header [infos]="curriculumHeaderInfo"></app-curriculum-header>
-	<app-curriculum-summary-section [resumo]="professionalSummary"></app-curriculum-summary-section>
-	<i class="bi bi-facebook"></i>
+<div class="container">
+	<div>
+		<app-profile-tab profileUsername="Gabriel"
+			(updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+		<app-profile-tab profileUsername="Alanis" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+		<app-profile-tab profileUsername="Denilson"
+			(updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+		<app-profile-tab profileUsername="Italo" (updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
+	</div>
+	<div>
+		<app-curriculum-header [infos]="curriculumHeaderInfo"></app-curriculum-header>
+		<app-curriculum-summary-section [resumo]="professionalSummary"></app-curriculum-summary-section>
+		<i class="bi bi-facebook"></i>
+	</div>
 </div>
