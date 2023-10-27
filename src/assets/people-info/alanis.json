@@ -1,37 +1,37 @@
 {
-	"name": "",
-	"age": 0,
+	"name": "Alanis Hadama",
+	"age": 22,
 	"address": {
-		"city": "",
-		"state": ""
+		"city": "Rio de Janeiro",
+		"state": "RJ"
 	},
 	"contacts": {
-		"emails": [],
-		"phones": []
+		"emails": ["xxxxxx@gmail.com"],
+		"phones": ["(XX) XXXXX-YYYY"]
 	},
 	"socialMedia": [
 		{
-			"platform": "",
-			"username": "",
-			"profileSrc": ""
+			"platform": "GitHub",
+			"username": "hadamas",
+			"profileSrc": "https://github.com/hadamas"
 		}
 	],
-	"profilePictureSrc": "",
-	"professionalSummary": "",
-	"professionalGoal": "",
+	"profilePictureSrc": "https://avatars.githubusercontent.com/u/102327029?v=4",
+	"professionalSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin. Cursus sit amet dictum sit. Enim eu turpis egestas pretium aenean pharetra. Ultricies leo integer malesuada nunc vel risus. ",
+	"professionalGoal": "Lorem ipsum dolor sit amet ",
 	"languages": [
-		""
+		"Ingles - Avancado\nFrances - Basico\nJapones - iniciante"
 	],
 	"education": [
-		""
+		"Bacharelado em Ciencia da Computacao - Cefet/RJ\nEngenharia de Software - 42 | RIO "
 	],
 	"courses": [
-		""
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin. Cursus sit amet dictum sit. Enim eu turpis egestas pretium aenean pharetra. Ultricies leo integer malesuada nunc vel risus. "
 	],
 	"skills": [
-		""
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin. Cursus sit amet dictum sit. "
 	],
 	"acchiviements": [
-		""
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin. Cursus sit amet dictum sit. Enim eu turpis egestas pretium aenean pharetra. Ultricies leo integer malesuada nunc vel risus. "
 	]
 }
