@@ -37,7 +37,7 @@ export interface PersonInfo extends BracketAcessible {
 	birthdate: string,
 	address: Addressinfo,
 	contacts: ContactInfo,
-	socialMedia: SocialMediaInfo,
+	socialMedia: SocialMediaInfo[],
 	profilePictureSrc: string,
 	professionalSummary: string[],
 	professionalGoal: string[],

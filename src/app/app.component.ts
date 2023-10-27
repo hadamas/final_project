@@ -1,6 +1,6 @@
 import { default as peopleInfo } from '../assets/people-info.json';
 import { Component, Input, OnInit, Output } from '@angular/core';
-import { CurriculumHeaderInfo, BracketAcessible } from 'src/utility/types';
+import { CurriculumHeaderInfo, BracketAcessible, PersonInfo } from 'src/utility/types';
 
 @Component({
 	selector: 'app-root',
@@ -25,7 +25,7 @@ export class AppComponent {
 
 	loadNewContent(username: string) {
 		username = username.toLowerCase();
-		const personInfo: any = ((peopleInfo as BracketAcessible)[username])
+		const personInfo: PersonInfo = ((peopleInfo as BracketAcessible)[username])
 
 		this.curriculumHeaderInfo = {
 			name: personInfo.name,
