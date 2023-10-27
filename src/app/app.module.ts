@@ -7,16 +7,16 @@ import { CurriculumHeaderComponent } from './components/curriculum-header/curric
 import { CurriculumSummarySectionComponent } from './components/curriculum-summary-section/curriculum-summary-section.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ProfileTabComponent,
-    CurriculumHeaderComponent,
-    CurriculumSummarySectionComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		ProfileTabComponent,
+		CurriculumHeaderComponent,
+		CurriculumSummarySectionComponent
+	],
+	imports: [
+		BrowserModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
