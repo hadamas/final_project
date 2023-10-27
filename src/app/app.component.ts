@@ -45,18 +45,7 @@ export class AppComponent {
 
 		this.professionalSummary = personInfo.professionalSummary;
 		this.skills = personInfo.skills
-		this.education = [{
-			school: personInfo.education[0].school,
-			course: personInfo.education[0].course,
-			date: personInfo.education[0].date
-		}, {
-			school: personInfo.education[1].school,
-			course: personInfo.education[1].course,
-			date: personInfo.education[1].date
-		}]
-		this.languages = [{
-			language: personInfo.denilson.languages[0].language,
-			level: personInfo.denilson.languages[0].level
-		}]
+		this.education = personInfo.education
+		this.languages = personInfo.languages
 	}
 }
