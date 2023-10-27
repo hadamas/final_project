@@ -7,6 +7,10 @@ import { CurriculumHeaderComponent } from './components/curriculum-header/curric
 import { CurriculumSummarySectionComponent } from './components/curriculum-summary-section/curriculum-summary-section.component';
 import { EducacaoComponent } from './components/educacao/educacao.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { ContatosComponent } from './components/contatos/contatos.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { CursosComponent } from './components/cursos/cursos.component';
+import { LanguageComponent } from './components/language/language.component';
 
 @NgModule({
 	declarations: [
@@ -15,7 +19,11 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 		CurriculumHeaderComponent,
 		CurriculumSummarySectionComponent,
 		EducacaoComponent,
-		ExperienciaComponent
+		ExperienciaComponent,
+  ContatosComponent,
+  SkillsComponent,
+  CursosComponent,
+  LanguageComponent
 	],
 	imports: [
 		BrowserModule

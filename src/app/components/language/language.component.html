@@ -1,0 +1,12 @@
+<body>
+	<div class="container-img">
+		<div>
+			<img src="../../../assets/img/linguas.png" alt="#" class="img">
+		</div>
+	</div>
+	<ul class="row-info">
+		<ng-template ngFor let-languageInfo [ngForOf]="languages">
+			<li class="m-4 p-3 fw-semibold"> Língua: {{ languageInfo.language }}</li>
+		</ng-template>
+	</ul>
+</body>

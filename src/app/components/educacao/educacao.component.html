@@ -1,22 +1,17 @@
 <body>
-  <div class="container-img">
-    <div>
-      <!-- <h1 class="title">{{ title }}</h1> -->
-      <img src="../../../assets/img/educacao.png" alt="" class="img">
-    </div>
-  </div>
-  <div class="mt-4">
-    <div class="row info">
-      <p class="col-sm-6 fw-semibold">{{ universidade.universidade1 }}</p>
-      <p class="col-sm-2 fw-semibold">{{ ano.ano1 }}</p>
-    </div>
-    <div class="row info">
-      <p class="col-sm-6 fw-semibold">{{ universidade.universidade2 }}</p>
-      <p class="col-sm-2 fw-semibold">{{ ano.ano1 }}</p>
-    </div>
-    <div class="row info">
-      <p class="col-sm-6 fw-semibold">{{ universidade.universidade3 }}</p>
-      <p class="col-sm-2 fw-semibold">{{ ano.ano1 }}</p>
-    </div>
-  </div>
+	<div class="container-img">
+		<div>
+			<!-- <h1 class="title">{{ title }}</h1> -->
+			<img src="../../../assets/img/educacao.png" alt="" class="img">
+		</div>
+	</div>
+	<div class="mt-4">
+		<ul class="row info">
+			<ng-template ngFor let-formationInfo [ngForOf]="educacao">
+				<li class="col-sm-4 fw-semibold">Instituição: {{ formationInfo.school }}</li>
+				<li class="col-sm-4 fw-semibold">Curso: {{ formationInfo.course }}</li>
+				<li class="col-sm-4 fw-semibold">Período: {{ formationInfo.date }}</li>
+			</ng-template>
+		</ul>
+	</div>
 </body>

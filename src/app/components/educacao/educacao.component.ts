@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-educacao',
@@ -6,13 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./educacao.component.css']
 })
 export class EducacaoComponent {
-  title: string = 'Educação'
-  universidade = {
-    universidade1: 'Universidade de Havard',
-    universidade2: 'Universidade de Massachusetts Dartmouth',
-    universidade3: 'Universidade de Cambridge'
-  }
-  ano = {
-    ano1: '2019-2023'
-  }
+  @Input() educacao!: any
+
+  // title: string = 'Educação'
+  // universidade = {
+  //   universidade1: 'Universidade de Havard',
+  //   universidade2: 'Universidade de Massachusetts Dartmouth',
+  //   universidade3: 'Universidade de Cambridge'
+  // }
+  // ano = {
+  //   ano1: '2019-2023'
+  // }
+  
 }

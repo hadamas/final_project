@@ -1,5 +1,5 @@
 import { default as peopleInfo } from '../assets/people-info.json';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { CurriculumHeaderInfo, BracketAcessible } from 'src/utility/types';
 
 @Component({
@@ -19,6 +19,16 @@ export class AppComponent {
 		contacts: peopleInfo.denilson.contacts
 	};
 	professionalSummary!: any;
+	skills!: any;
+	education: any = {
+		school: peopleInfo.denilson.education[1].school,
+		course: peopleInfo.denilson.education[1].course,
+		date: peopleInfo.denilson.education[1].date
+	}
+	languages: any = {
+		language: peopleInfo.denilson.languages[0].language,
+		level: peopleInfo.denilson.languages[0].level
+	}
 
 	loadNewContent(username: string) {
 		username = username.toLowerCase();
@@ -34,5 +44,8 @@ export class AppComponent {
 		}
 
 		this.professionalSummary = personInfo.professionalSummary;
+		this.skills = personInfo.skills
+		this.education = personInfo.education
+		this.languages = personInfo.languages
 	}
 }
