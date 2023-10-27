@@ -1,11 +1,11 @@
-# <h1 align='center'>Portifolio Online</h1>
+# <h1 align='center'>Portifolio Online 💻</h1>
 
 <h4 >Sejam bem-vindos ao nosso projeto de crição de um portifólio online personalizável! Espero que encontrem aqui algo inspirador e útil. Sintam-se à vontade para explorar e contribuir! 👋</h4>
 <br />
 
 ## Descrição 📖
 
-<p>Para a disciplina de Front End Framework Angular no programa Santander Coders, nossa equipe desenvolveu um projeto de construção de um portfólio online. Utilizamos Angular para criar diversos componentes em TypeScript que facilitaram a interação dinâmica com as informações exibidas na página. Esses componentes permitiram a substituição de elementos como a foto de perfil, nome, telefone e outras informações pessoais de forma ágil e eficiente. Além disso, implementamos recursos de estilização e responsividade para proporcionar uma experiência de usuário agradável e de fácil navegação.</p>
+<p>Para a disciplina de Front End Framework Angular no programa Santander Coders, nossa equipe desenvolveu um projeto de construção de um portfólio online. Criamos diversos componentes em TypeScript que facilitaram a interação dinâmica com as informações exibidas na página. Esses componentes permitiram a substituição de elementos como a foto de perfil, nome, telefone e outras informações pessoais de forma ágil e eficiente. Além disso, implementamos recursos de estilização e responsividade para proporcionar uma experiência de usuário agradável e de fácil navegação.</p>
 <p></p>Este projeto em grupo não apenas nos permitiu aplicar os conceitos aprendidos na disciplina, mas também aprimorar nossas habilidades em Angular, TypeScript e desenvolvimento web em geral. A criação de componentes interativos tornou o portfólio online mais dinâmico e personalizado, demonstrando a versatilidade e poder da tecnologia Angular no desenvolvimento de aplicações front-end.</p>
 
 <section align='center'>
