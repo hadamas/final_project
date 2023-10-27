@@ -1,0 +1,30 @@
+*{
+  margin: none;
+  padding: none;
+  outline: none;
+}
+body{
+  background-color: #F6F1E2;
+}
+.container-img{
+  background-color: #7BA68D;
+  height: 3.2rem;
+}
+.img{
+  margin-left: 2rem;
+  margin-top: -0.2rem;
+}
+.info{
+  margin-left: 2rem; 
+}
+.form-group{
+  
+}
+
+#text{
+  width: 20rem;
+}
+#area{
+  width: 40rem;
+  padding: 10px;
+}
