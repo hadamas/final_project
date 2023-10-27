@@ -208,7 +208,11 @@
 			}
 		],
 		"education": [
-			""
+			{
+				"school": "Escola",
+				"course": "Curso X",
+				"date": "03/23 - 07/2025"
+			}
 		],
 		"courses": [
 			""

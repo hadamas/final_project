@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container container-bg">
 	<div>
 		<app-profile-tab profileUsername="Gabriel"
 			(updateProfileInfoRequest)="loadNewContent($event)"></app-profile-tab>
@@ -10,7 +10,11 @@
 	<div>
 		<app-curriculum-header [infos]="curriculumHeaderInfo"></app-curriculum-header>
 		<app-curriculum-summary-section [resumo]="professionalSummary"></app-curriculum-summary-section>
-		<app-educacao></app-educacao>
+		<app-educacao [educacao] = "education"></app-educacao>
 		<app-experiencia></app-experiencia>
+		<app-contatos ></app-contatos>
+		<app-skills [habilidades] = "skills"></app-skills>
+		<app-language [linguas] = "languages"></app-language>
+		<app-cursos></app-cursos>
 	</div>
 </div>
