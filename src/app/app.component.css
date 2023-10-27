@@ -1,4 +1,8 @@
-.container-bg{
-  background-color: #F6F1E2;
-  padding: 0;
+.container-bg {
+	background-color: #F6F1E2;
+	padding: 0;
+}
+
+li {
+	list-style: none;
 }

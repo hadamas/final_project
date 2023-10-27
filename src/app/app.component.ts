@@ -10,24 +10,17 @@ import { CurriculumHeaderInfo, BracketAcessible } from 'src/utility/types';
 export class AppComponent {
 
 	title = 'final_project';
-	curriculumHeaderInfo: CurriculumHeaderInfo = {
-		name: peopleInfo.denilson.name,
-		profilePictureSrc: peopleInfo.denilson.profilePictureSrc,
-		address: peopleInfo.denilson.address,
-		birthdate: peopleInfo.denilson.birthdate,
-		socialMedia: peopleInfo.denilson.socialMedia,
-		contacts: peopleInfo.denilson.contacts
-	};
+	curriculumHeaderInfo!: CurriculumHeaderInfo;
 	professionalSummary!: any;
 	skills!: any;
-	education: any = {
-		school: peopleInfo.denilson.education[1].school,
-		course: peopleInfo.denilson.education[1].course,
-		date: peopleInfo.denilson.education[1].date
-	}
-	languages: any = {
-		language: peopleInfo.denilson.languages[0].language,
-		level: peopleInfo.denilson.languages[0].level
+	education: any;
+	languages: any;
+
+	ngOnInit() {
+		let name = Object.keys(peopleInfo);
+		let randomNum = Math.floor(Math.random() * 4)
+
+		this.loadNewContent(name[randomNum])
 	}
 
 	loadNewContent(username: string) {
