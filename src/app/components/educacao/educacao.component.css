@@ -1,0 +1,18 @@
+*{
+  margin: none;
+  padding: none;
+}
+body{
+  background-color: #F6F1E2;
+}
+.container-img{
+  background-color: #7BA68D;
+  height: 3.2rem;
+}
+.img{
+  margin-left: 2rem;
+  margin-top: -0.3rem;
+}
+.info{
+  margin-left: 2rem; 
+}
