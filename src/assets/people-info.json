@@ -1,39 +1,43 @@
 {
 	"alanis": {
-		"name": "Alanis info aqui",
-		"birthdate": "dd/mm/yyyy",
+		"name": "Alanis Hadama",
+		"birthdate": "10/01/2001",
 		"address": {
-			"city": "",
-			"state": ""
+			"city": "Rio de Janeiro",
+			"state": "RJ"
 		},
 		"contacts": {
-			"emails": [],
-			"phones": []
+			"emails": [
+				"alanis.zzzZz@gmail.com"
+			],
+			"phones": [
+				"(XX) YYYYY-ZZZZ"
+			]
 		},
 		"socialMedia": [
 			{
-				"platform": "",
-				"username": "",
-				"profileSrc": ""
+				"platform": "GitHub",
+				"username": "hadamas",
+				"profileSrc": "https://github.com/hadamas"
 			}
 		],
-		"profilePictureSrc": "",
-		"professionalSummary": "",
-		"professionalGoal": "",
+		"profilePictureSrc": "https://avatars.githubusercontent.com/u/102327029?v=4",
+		"professionalSummary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin.",
+		"professionalGoal": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin.",
 		"languages": [
-			""
+			"Inglês - Avançado\nFrancês - Básico\nJaponês - iniciante"
 		],
 		"education": [
-			""
+			"Bacharelado em Ciência da Computação - Cefet/RJ\nEngenharia de Software - 42 | RIO "
 		],
 		"courses": [
-			""
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin."
 		],
 		"skills": [
-			""
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin."
 		],
 		"acchiviements": [
-			""
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin."
 		]
 	},
 	"gabriel": {
