@@ -39,7 +39,16 @@
 			}
 		],
 		"education": [
-			"Bacharelado em Ciencia da Computacao - Cefet/RJ\nEngenharia de Software - 42 | RIO "
+			{
+				"school": " Cefet/RJ",
+				"course": "Bacharelado em Ciencia da Computacao",
+				"date": "01/2006 - 12/2016"
+			},
+			{
+				"school": " 42 | RIO",
+				"course": "Engenharia de Software",
+				"date": "01/2006 - 12/2016"
+			}
 		],
 		"courses": [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien et ligula ullamcorper malesuada proin. Cursus sit amet dictum sit. Enim eu turpis egestas pretium aenean pharetra. Ultricies leo integer malesuada nunc vel risus. "
