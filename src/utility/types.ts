@@ -28,6 +28,12 @@ export type Addressinfo = {
 	state: string
 }
 
+export type EducationInfo = {
+	school: string,
+	course: string,
+	date: string
+}
+
 export interface BracketAcessible {
 	[key: string]: any;
 }
@@ -39,10 +45,10 @@ export interface PersonInfo extends BracketAcessible {
 	contacts: ContactInfo,
 	socialMedia: SocialMediaInfo[],
 	profilePictureSrc: string,
-	professionalSummary: string[],
+	professionalSummary: string,
 	professionalGoal: string[],
 	languages: LanguageInfo[],
-	education: string[],
+	education: EducationInfo,
 	courses: string[],
 	skills: string[],
 	acchiviemes: string[]

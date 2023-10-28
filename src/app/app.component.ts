@@ -1,6 +1,6 @@
 import { default as peopleInfo } from '../assets/people-info.json';
 import { Component, Input, OnInit, Output } from '@angular/core';
-import { CurriculumHeaderInfo, BracketAcessible, PersonInfo } from 'src/utility/types';
+import { CurriculumHeaderInfo, BracketAcessible, PersonInfo, EducationInfo, LanguageInfo } from 'src/utility/types';
 
 @Component({
 	selector: 'app-root',
@@ -9,14 +9,15 @@ import { CurriculumHeaderInfo, BracketAcessible, PersonInfo } from 'src/utility/
 })
 export class AppComponent {
 
-	title = 'final_project';
 	curriculumHeaderInfo!: CurriculumHeaderInfo;
-	professionalSummary!: any;
-	skills!: any;
-	education: any;
-	languages: any;
+	professionalSummary!: string;
+	skills!: string[];
+	education!: EducationInfo;
+	languages!: LanguageInfo[];
 
 	ngOnInit() {
+		// Escolhe aleatóriamente uma chave  de peopleInfo (integrante do grupo) para passar como argumento para
+		// loadNewContent() carregar as informações na tela
 		let name = Object.keys(peopleInfo);
 		let randomNum = Math.floor(Math.random() * 4)
 

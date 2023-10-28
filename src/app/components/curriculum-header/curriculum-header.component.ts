@@ -17,20 +17,20 @@ export class CurriculumHeaderComponent {
 	socialMedia!: SocialMediaInfo[];
 
 	ngOnChanges() {
-		console.log("on changes chamado \n\n")
-		try {
-			this.name = this.infos.name;
-			this.address = this.infos.address
-			this.profilePictureSrc = this.infos.profilePictureSrc;
-			this.age = this.calculateAgeInYears(this.infos.birthdate)
-			this.phones = this.infos.contacts.phones;
-			this.emails = this.infos.contacts.emails;
-			this.socialMedia = this.infos.socialMedia;
-
-		} catch (error) {
-			console.log(`DEU ESSE ERRO NO ngOnChanges:\n`)
-			console.log(error)
-		}
+		this.name = this.infos.name;
+		this.address = this.infos.address
+		this.profilePictureSrc = this.infos.profilePictureSrc;
+		this.age = this.calculateAgeInYears(this.infos.birthdate)
+		this.phones = this.infos.contacts.phones;
+		this.emails = this.infos.contacts.emails;
+		this.socialMedia = this.infos.socialMedia;
+		// 		try {
+		// 
+		// 
+		// 		} catch (error) {
+		// 			console.log(`DEU ESSE ERRO NO ngOnChanges:\n`)
+		// 			console.log(error)
+		// 		}
 	}
 
 	private calculateAgeInYears(birthdate: string): number {
